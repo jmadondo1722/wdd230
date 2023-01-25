@@ -2,7 +2,7 @@
 
     .main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .card h2 {
@@ -12,5 +12,9 @@
     .card a,
     p {
         font-size: 14px;
+    }
+    .card:last-child {
+        grid-column: span 2;
+
     }
 }
