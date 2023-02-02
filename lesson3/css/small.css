@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -116,4 +119,38 @@ td, th{
 .accent2-background {
     background-color: #ED6B86;
     text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+
+th {
+    text-align: left;
+}
+
+.sample1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ED6B86;
+    color: white;
+    font-size: 30px;
+}
+
+.sample2 {
+    font-family: 'Abel', sans-serif;
+    background-color: #C6AD94;
+    color: white;
+    font-size: 25px;
+
+}
+
+.sample3 {
+    font-family: 'Abel', sans-serif;
+    background-color: #7FB285	;
+    color: white;
+    font-size: 25px;
 }
