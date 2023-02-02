@@ -1,25 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Abel', Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-main {
-    background-color: #7FB285;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 1rem;
-}
-
 header,
 footer {
     display: flex;
@@ -31,56 +12,78 @@ footer {
     color: white;
 }
 
-footer {
-    background: #ED6B86;
-}
-
-header h1 {
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-    color: white;
-}
-
 nav {
     background-color: #C6AD94;
 }
 
-nav ul {
-    list-style: none;
+.headingpage1,
+.headingpage2,
+.headingpage3,
+.headingpage4 {
+    font-size: 25px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+h4,
+p {
+    font-size: 15px;
+}
+
+ul,
+li,
+ol {
+    font-size: 15px;
+}
+
+
+header,
+footer {
+
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     align-items: center;
-    padding: 1rem 0;
-    margin: 0;
-    line-height: 1.6;
+    justify-content: center;
+
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
+header,
+nav,
+main,
+footer {
+    max-width: 800px;
+
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
 
-a {
-    color: white;
-}
-
-.card {
+nav {
+    background-color: #156160;
     text-align: center;
-    width: 320px;
-    border: white dashed 2px;
-    margin: 1rem 0 0;
-    padding: 1rem;
+    box-shadow: 0 5px 15px gray;
 }
 
-.card ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.70rem;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .logo{
@@ -88,37 +91,16 @@ a {
     justify-content: center;
 }
 
-table {
-    display: table;
-    border: 2px dashed white;
+
+nav a:hover {
+    text-decoration: underline;
 }
 
-td, th{
-    border: 2px dashed white;
-}
 
-.container-table {
-    margin-top: 1rem;
-}
+.byu {
+    color: white;
+    background-color: transparent;
 
-.primary-background {
-    background-color: #ED6B86;
-    text-align: center;
-}
-
-.secondary-background {
-    background-color: #7FB285;
-    text-align: center;
-}
-
-.accent1-background {
-    background-color: #C6AD94;
-    text-align: center;
-}
-
-.accent2-background {
-    background-color: #ED6B86;
-    text-align: center;
 }
 
 table,
@@ -130,7 +112,7 @@ td {
 }
 
 th {
-    text-align: left;
+    text-align: center;
 }
 
 .sample1 {
@@ -142,7 +124,7 @@ th {
 
 .sample2 {
     font-family: 'Abel', sans-serif;
-    background-color: #C6AD94;
+    background-color: #156160;
     color: white;
     font-size: 25px;
 
@@ -153,4 +135,26 @@ th {
     background-color: #7FB285	;
     color: white;
     font-size: 25px;
+}
+
+ .sample4 {
+    font-family: 'Abel Magic', sans-serif;
+    color: black;
+    font-size: 22px;
+}
+
+.sample5 {
+    font-family: 'Abel', sans-serif;
+    color: #156160;
+    font-size: 20px;
+}
+
+.sample6 {
+    font-family: 'Abel', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.colors {
+    width: 100%;
 }
