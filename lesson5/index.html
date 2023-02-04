@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-
     <link href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pretoria Chamber of Commerce Homepage</title>
 </head>
 
 <body>
+    <div id="message"></div>
     <header>
 
         <div class="headname">
@@ -45,20 +45,62 @@
         <div class="date-header">
             <p id="datetime"></p>
         </div>
-
-
     </header>
     <main>
-        <div class="hero">Hero with site name call to action</div>
-        <div class="event">Event</div>
-        <div class="weather">Weather</div>
-        <div class="news">News Release</div>
-        <div class="join">Join</div>
+        <div class="hero">
+            <img class="banner" src="./images/hero.jpg" alt="Pretoria CBD">
+            <button class="call-to-action">Join the PCC</button>
+        </div>
+
+        <div class="event">
+            <b>Ribbon Cutting.</b><br>
+            A ribbon cutting ceremony was held Wednesday morning for the 18-hole disc golf course at Briksburg Golf
+            Course.
+            The course has been reconfigured and upgraded. New features include tee pads, targets and signage.
+
+        </div>
+        <div class="weather">
+            <h3>Pretoria Weather</h3>
+            <h3 id="temperature">°F</h3>
+            <h4 id="description-temperature">Description</h4>
+            <hr>
+            <p id="wind-speed">Wind Speed</p>
+        </div>
+
+        <div class="news">
+            <span id="news-date"><b>Feb. 04, 2023</b></span>
+            <p>Asked about proposals to change the Reserve Bank’s mandate last week, governor Lesetja Kganyago deflected
+                the question, as he usually does. Ask the president not the Bank, he said. It was for the people of SA
+                to change the Bank’s mandate should they wish to do so, not the Bank.
+            </p>
+        </div>
+
+        <div class="joinbutton">
+            <button class="join-us">Join Us!</button>
+            <p class="text-join">Discover how to join the Pretoria Chamber of Commerce and how it will benefit your
+                business. </p>
+        </div>
 
         <aside class="aside">
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-            <div class="spotlight3">Spotlight 3</div>
+            <div>
+                <b>Bus Rapid Transit.</b><br><br>
+                Transport planners in highly unequal societies such as South Africa face challenges in designing
+                transport systems that meet the needs of diverse user groups. These include groups that are very
+                price-sensitive, and those for whom fast and reliable services are more important. 
+            </div>
+
+            <div>
+                <b>Free WI-FI zones across Pretoria.</b><br>
+                The City will offer residents access to more data, doubling the free access data allocation from 500 MB
+                to 1 GB per person per day at speeds of up to 15 Mbps. 
+            </div>
+
+            <div class="spotlight3"><b>Tree Planting Drive held in CBD!</b>
+                Community organisation Dare to Love, the metro and residents conducted a clean-up and tree-planting
+                drive at the Union Buildings recently under the Servolution movement.
+
+                
+            </div>
         </aside>
 
     </main>
