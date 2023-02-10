@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-	background-color: #ea5250;
+	background-color: #ED6B86;
 	display: grid;
     grid-template-columns: 5fr 1fr 1fr;
 	align-items: center;
@@ -58,7 +58,7 @@ header div #datetime{
 }
 
 footer {
-	background-color: #ea5250;
+	background-color: #ED6B86;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
