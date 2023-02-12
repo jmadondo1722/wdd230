@@ -47,10 +47,10 @@ article = document.querySelector('#message');
 
 weekday = date.getDay();
 
-/* Banner */
+/* Banner 
 
 if (weekday === 1 || weekday === 2){
     article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
     article.setAttribute('class', 'banner-message');
 }
-
+*/
