@@ -1,23 +1,24 @@
 document.querySelector('#©').textContent = new Date(Date.now()).getFullYear();
 
 const opciones = 
-{ weekday: 'long', 
-year: 'numeric', 
-month: 'numeric', 
-day: 'numeric' };
+{ weekday: 'long',
+day: 'numeric',  
+month: 'long',
+year: 'numeric'};
 
 document.querySelector('#dateMod').textContent = 
 new Date(Date.now()).toLocaleString();
 
 const opciones2 = 
-{ weekday: 'long', 
-year: 'numeric', 
-month: 'long', 
-day: 'numeric' };
-
+{ weekday: 'long',
+day: 'numeric',  
+month: 'long',
+year: 'numeric'};
 
 document.querySelector('#datetime').textContent = 
 new Date(Date.now()).toLocaleString('en-US',opciones2);
+
+
 
 
 

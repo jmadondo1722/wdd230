@@ -18,11 +18,10 @@
 
 <body>
     <div id="message"></div>
-
     <header>
 
         <div class="headname">
-            <img class="logo" src="images/logo1.png" alt="Pretoria Chamber of Commerce">
+            <img class="logo" src="images/logo-w.webp" alt="Pretoria Chamber of Commerce">
             <h1 class="header-title">Pretoria Chamber of Commerce</h1>
         </div>
         <div class="social">
@@ -44,12 +43,17 @@
             </nav>
         </div>
         <div class="date-header">
-            <p id="datetime"></p>
+            <p id="currentdate"></p>
         </div>
     </header>
     <main>
         <div class="hero">
-            <img class="banner" src="./images/hero.jpg" alt="Pretoria CBD">
+            <picture class="optipic">
+                <source media="(max-width: 600px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.webp">
+                <source media="(max-width: 1024px)" srcset="images/wdd230-org-large.webp">
+                <img src="images/wdd230-org-large.webp" alt="Lesson 06">
+            </picture>
             <button class="call-to-action">Join the PCC</button>
         </div>
 
@@ -62,10 +66,16 @@
         </div>
         <div class="weather">
             <h3>Pretoria Weather</h3>
-            <h3 id="temperature">°F</h3>
-            <h4 id="description-temperature">Description</h4>
+            <div class="weather-div">
+                <picture>
+                    <img src="images/cloud_day_forecast.webp" alt="Weather-icon">
+                </picture>
+                <h3 id="temp"><span id="temperature">17</span>°C</h3>
+            </div>
+            <h4 id="desc-temp">Partly Cloudy</h4>
             <hr>
-            <p id="wind-speed">Wind Speed</p>
+            <p>Wind Speed: <span id="speed">16</span>km/h</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
         </div>
 
         <div class="news">
@@ -107,7 +117,7 @@
     </main>
     <footer>
         <div class="logo-footer">
-            <img class="logo-footer" src="./images/logo3.png" alt="Pretoria Logo image">
+            <img class="logo-footer" src="./images/logo3-w.webp" alt="Pretoria Logo image">
         </div>
         <div class="title-footer">
             <h2>Pretoria Chamber of Commerce</h2>
@@ -128,7 +138,8 @@
 
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/currentdate.js"></script>
 </body>
 
 </html>
