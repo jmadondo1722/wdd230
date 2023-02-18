@@ -1,5 +1,12 @@
-@media (min-width: 48em) {
+@media (min-width: 1100px) {
 	
+    header,
+    main,
+    footer,
+    nav {
+        max-width: 1000px;
+    }
+
     header div button {
         display: none;
     }
@@ -17,12 +24,27 @@
     
     nav ul li a {
         padding: .5rem 1rem;
+        font-size: 20px;
     }
     
         main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
+    header img {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+
+    h2 {
+        font-size: 25px;
+        text-align: left;
+    }
+
     .menu {
         grid-column: 2/3;
         grid-row: 1/4;
@@ -56,11 +78,17 @@
     .spotlight3 {
         display: block;
     }
-        
-    sidemenu div {
-        margin: 10px auto;
+   
+    .joinbutton {
+		grid-column: 1/2;
+		grid-row: 3/3;
+	}
+
+    .localstoragebutton{
+        grid-column: 1/2;
+		grid-row: 3/3;
     }
-    
+
     .hero {
         grid-column: 2/4;
         grid-row: 1/3;
@@ -69,16 +97,23 @@
         margin-bottom: 0;
       }
     
+      .herodiscover {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+      }
     .news {
         grid-column: 2/4;
-        grid-row: 3/4;
+        grid-row: 3/3;
         width: 100%;
         height: 100%;
     }
     
     .event {
         grid-column: 1/2;
-        grid-row: 1/2;
+        grid-row: 1/3;
         width: 100%;
         height: 100%;
         margin-bottom: 0;
@@ -97,5 +132,66 @@
         width: 100%;
         height: 100%;
     }   
+    
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .lazyloading {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+}
+
+.mygallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+    .mygallery img {
+        max-width: 100%;
+    }
+
+    .mygallery figcaption {
+        background-color: #FFECD1;
+        border: thin silver solid;
+        padding: 5px;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .mygallery :hover {
+        box-shadow: 0 0 50px black;
+    }
+
+    .label {
+        font-family: "Abel", sans-serif;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    #visits {
+        color: navy;
+        font-weight: bolder;
+        font-size: larger;
     }
     
+    .today {
+        color: tomato;
+    }
+
+    .left {
+        margin: 0px;
+        padding-top: 10px;
+        padding: 5px;
+    }
+    herodiscover, .event, .lazyloading {
+        grid-row:1/2
+    }
+}
+
