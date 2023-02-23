@@ -11,7 +11,27 @@ weekday = d.getDay();
 
 /* Banner */
 
-if (weekday === 1 || weekday === 2){
-    article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
-    article.setAttribute('class', 'banner-message');
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const day = new Date().getDay();
+  
+    if(day === 5 || day === 6){
+      document.getElementById("banner").classList.remove('hidden');
+    }
+  
+    document.querySelector("#year").innerHTML = new Date().getFullYear();
+    document.getElementById("updated").innerHTML = new Date();
+    let today = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(new Date());
+    document.querySelector("#today").innerHTML = today;
+  });
+  
+  function openMenu(){
+    document.querySelector(".page-links").classList.remove("hidden");
+    document.querySelector("#open-btn").classList.add("hidden");
+    document.querySelector("#close-btn").classList.remove("hidden");
+  }
+  
+  function closeMenu() {
+    document.querySelector(".page-links").classList.add("hidden");
+    document.querySelector("#open-btn").classList.remove("hidden");
+    document.querySelector("#close-btn").classList.add("hidden");
+  }

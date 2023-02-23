@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+
+
+body{
+    margin: 0 auto;
+    font-family: 'Abel', sans-serif;
+    width: 80%;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: #purple;
+    border-bottom: solid #000108;
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #EF2917;
+    margin: 0px auto;
+}
+caption{
+    caption-side: bottom;
+    margin-top: 5px;
+}
+tbody tr:nth-child(2) {
+    background-color: #D10000;
+}
+.blank, .tablename{
+    background-color: #6B818C;
+    color:whitesmoke;
+    border: none;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.tick{
+    color: #06D6A0;
+}
+
+.unwanted{
+    color: #EF2917;
+}
+
+th,td {
+    border: 1px solid#000;
+    padding: 20px;
+    text-align: center;
+}
+th{
+    color: whitesmoke;
+    background-color: #5e5b5b;
+}
+
