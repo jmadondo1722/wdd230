@@ -49,3 +49,7 @@ if (weekday === 1 || weekday === 2){
     article.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
     article.setAttribute('class', 'banner-message');
 }
+//Monday/Tuesday Banner
+if (now.getDay() < 3 && now.getDay() > 0){
+    document.getElementById("meetAndGreet").classList.toggle("activeBanner");
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site about the Pretoria Chamber of Commerce" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pretoria Chamber of Commerce Homepage</title>
+</head>
+
+<body>
+    <div class="noDisplay" id="meetAndGreet">
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header>
+
+        <div class="headname">
+            <img class="logo" src="images/logo-w.webp" alt="Pretoria Chamber of Commerce">
+            <h1 class="header-title">Pretoria Chamber of Commerce</h1>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin1.png" alt="linkedin"></a>
+        </div>
+
+        <div>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="../chamber/discover.html">Discover</a></li>
+                    <li><a class="active" href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Position Title<input type="text" name="title" pattern="[A-Za-z0-9_]{7}"></label>
+                <label class="top">Email*<input type="email" name="user_email" placeholder="user@email.com"></label>
+                        required></label>
+                <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Organization Information</legend>
+                <label class="top">Business name/title*<input type="text" name="title" required></label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes">NP Member for non profit
+                    organizations and there is no fee</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes">Bronze Member</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes">Silver Member</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="yes">Gold Member</label>
+                <label class="description">Describe your business<textarea name="description"></textarea></label>
+            </fieldset>
+
+            <input type="hidden" name="hidfield" value="currentTime">
+            <input class="submitBtn" type="submit" value="Apply For Membership">
+        </form>
+
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="./images/logo3-w.webp" alt="Pretoria Logo image">
+        </div>
+        <div class="title-footer">
+            <h2>Pretoria Chamber of Commerce</h2>
+        </div>
+        <div class="contact">
+            <p>mad22005@byui.edu</p>
+            <p>+(27) 73 590 8361</p>
+            <a
+                href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
+                Location
+            </a>
+            <br><br>
+        </div>
+        <div class="info">
+            <span> &nbsp; &nbsp; &copy;<span id="©">
+                </span> &nbsp; Pretoria Chamber of Commerce &nbsp;</span> | &nbsp; Josiah Madondo &nbsp; | &nbsp; BYUI
+            Online Program &nbsp;| &nbsp; Last modification: &nbsp; &nbsp; <span id="dateMod"></span>
+
+        </div>
+    </footer>
+    <script src="js/windchill.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
