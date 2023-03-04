@@ -9,7 +9,7 @@ date1.innerHTML = fulldate;
 
 document.getElementById("currentDate").innerHTML = document.lastModified;
 
-/*                                                Hamburger Menu                                                 */
+//Hamburger Menu
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
 }
@@ -17,7 +17,7 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-/*                                          Banner                                           */
+//Monday/Tuesday Banner
 if (now.getDay() < 3 && now.getDay() > 0){
     document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }
@@ -61,3 +61,7 @@ if("IntersectionObserver" in window) {
 else {
 }
 
+/*Regular Expressions*/
+/*const re = new RegExp("[a-zA-Z][\-][\s]{7}");
+const setPattern = document.querySelector("input[pattern]");
+setPattern.setAttribute("pattern", re);*/

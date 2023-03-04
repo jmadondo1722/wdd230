@@ -1,6 +1,6 @@
 @media only screen and (min-width: 58em) {
 
-
+    /*header*/
     header {
         grid-template-columns: 3fr 4fr 1fr;
     }
@@ -30,13 +30,13 @@
         grid-column: 3/4;
     }
     
-   
+    /*main*/
     main section, main div {
         height: 100%;
         width: 100%;
     }
     
-
+    /*Home Styles*/
     .home-grid {
         grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
         grid-template-rows: auto auto auto;
@@ -94,7 +94,7 @@
         display: block;
     }
     
-   
+    /*Discover Styles*/
     .discover-imgs:hover {
         opacity: .5;
         transform: scale(1.1);
@@ -118,8 +118,8 @@
     .market-highlight {
         margin-top: 15px;
         box-sizing: border-box;
-        border: 10px solid #42253B;
-        box-shadow: 10px 10px 15px #42253B;
+        border: 10px solid #603613;
+        box-shadow: 10px 10px 15px #603613;
         width: 80%;
     }
     
@@ -134,13 +134,13 @@
         margin-left: 8px;
     }
     
- 
+    /*Dirctory Styles*/
     .directory-list .businessCards section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
-   
+    /*footer*/
     footer {
         font-size: 100%;
     }
