@@ -43,7 +43,7 @@ main {
 section {
     margin: 0.25rem;
     padding: 0.35rem;
-    background-color: #eee;
+    background-color: #D7263D;
     border: 1px solid #bbb;
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ section {
 img {
     width: auto;
 	max-width: 325px;
-    box-shadow: 0 0 30px #777;
+    box-shadow: 0 0 30px #7EA3CC;
     height: 200px;
     border: 1px solid #333;
 }
