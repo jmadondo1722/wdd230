@@ -30,6 +30,7 @@ if ('IntersectionObserver' in window) { //if observer is supported in window the
     }, imgOptions);
     //load images if necessary
     imagesToLoad.forEach((img) => {
+        console.log(img);
         imgObserver.observe(img);
     });
 } else { //once we preload the images we want to stop observing. Load all images if not supported 

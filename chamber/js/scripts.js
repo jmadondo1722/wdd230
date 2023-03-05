@@ -18,7 +18,7 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 //Monday/Tuesday Banner
-if (now.getDay() < 3 && now.getDay() > 0){
+if (now.getDay() == 2 || now.getDay() == 3){
     document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }
 

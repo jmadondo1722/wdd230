@@ -118,8 +118,8 @@
     .market-highlight {
         margin-top: 15px;
         box-sizing: border-box;
-        border: 10px solid #603613;
-        box-shadow: 10px 10px 15px #603613;
+        border: 2px solid #764134;
+        box-shadow: 10px 10px 15px #F4442E;
         width: 80%;
     }
     
@@ -131,7 +131,7 @@
     
     #daysBetweenVisits {
         grid-column: 1/4;
-        margin-left: 8px;
+        
     }
     
     /*Dirctory Styles*/

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+
 
 .noDisplay {
     display: none;
@@ -185,11 +186,11 @@ main section h2 {
 }
 
 #hero-banner a {
-    background-color: #721121;
-    color: #69140E;
+    background-color: cyan;
+    color: white;
     text-decoration: none;
     position: absolute;
-    box-shadow: 3px 3px 3px #603613;
+    /* box-shadow: 3px 3px 3px #603613; */
     padding: 3%;
     border-radius: 10px;
     bottom: 15%;
@@ -287,18 +288,21 @@ main section h2 {
 
 /*Discover Styles*/
 #daysBetweenVisits {
+    margin: 0 auto;
+    width: 415px;
     display: block;
     box-sizing: border-box;
-    background-color: cyan;
+    background-color: #681e2e;
     color: white;
     padding: 2% 1% 2% 1%;
     font-size: 150%;
+    border-radius: 10px;
 }
 
 .discover-imgs {
     box-sizing: border-box;
-    border: 10px solid #603613;
-    box-shadow: 10px 10px 15px #603613;
+    border: 2px solid #764134;
+    box-shadow: 10px 10px 15px #F4442E;
     width: 80%;
 }
 
@@ -359,12 +363,12 @@ form label.description {
 
 form input.submitBtn {
     border: none;
-    background-color: #721121;
+    background-color:  #681e2e;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
-    width: 96%;
+    /* width: 96%; */
     max-width: 20rem;
     text-align: center;
 }
