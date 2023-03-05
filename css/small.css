@@ -73,14 +73,14 @@ ul, li {
 .text-white {
     color: white;
     font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 16pt;
+    font-size: 1rem;
 
 }
   
 .italic {
     font-style: italic;
     font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 16pt;
+    font-size: 1rem;
   
 }
 
@@ -88,6 +88,6 @@ ul, li {
 .text-light {
     color: #454545;
     font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 16pt;
+    font-size: 1rem;
   
 }
