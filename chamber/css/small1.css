@@ -472,3 +472,21 @@ footer {
 hr {
     max-width: 80%;
 }
+
+/*                                              Trial                                             */
+
+.cards {
+    background-color: rgb(41, 115, 115);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 1rem;
+}
+
+.cards section {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    margin: 0.5rem;
+    padding: 1rem;
+}

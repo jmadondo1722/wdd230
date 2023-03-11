@@ -61,7 +61,3 @@ if("IntersectionObserver" in window) {
 else {
 }
 
-/*Regular Expressions*/
-/*const re = new RegExp("[a-zA-Z][\-][\s]{7}");
-const setPattern = document.querySelector("input[pattern]");
-setPattern.setAttribute("pattern", re);*/

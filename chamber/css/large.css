@@ -88,6 +88,9 @@
     
     .spotlight section {
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
     .large-only {
@@ -118,8 +121,8 @@
     .market-highlight {
         margin-top: 15px;
         box-sizing: border-box;
-        border: 2px solid #764134;
-        box-shadow: 10px 10px 15px #F4442E;
+        border: 10px solid #603613;
+        box-shadow: 10px 10px 15px #603613;
         width: 80%;
     }
     
@@ -131,13 +134,58 @@
     
     #daysBetweenVisits {
         grid-column: 1/4;
-        
+        margin-left: 8px;
     }
     
     /*Dirctory Styles*/
     .directory-list .businessCards section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    /*Join styles*/
+    .join-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    #benefits {
+        grid-column: 2/3;
+        height: 90%;
+        border-radius: 10px;
+    }
+    
+    .membership-benefit {
+        border: none;
+        width: auto;
+        height: auto;
+    }
+    
+    .membership-benefit li {
+        text-align: start;
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    /*ContactUs styles*/
+    #contact-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .contact-info {
+        grid-column: 2/3;
+        height: 90%;
+        border-radius: 10px;
+    }
+    
+    .contact-info section {
+        width: auto;
+        height: auto;
     }
     
     /*footer*/

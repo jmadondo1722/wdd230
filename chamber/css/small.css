@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
 
-
 .noDisplay {
     display: none;
 }
@@ -68,7 +67,7 @@ header .company h1 {
 }
 
 .social a {
-    margin-right: 0.5rem;
+    margin-right: 10%;
     width: 40px;
 }
 
@@ -88,7 +87,7 @@ header .company h1 {
     list-style-type: none;
     margin: .2rem 2vw;
     padding: 0;
-    font-weight: normal;
+    font-weight: 800;
 }
 
 .active {
@@ -168,7 +167,7 @@ main section p, main div p {
 }
 
 main section h2 {
-    color: #721121;;
+    color: #721121;
 }
 
 /*Home Styles*/
@@ -255,7 +254,8 @@ main section h2 {
 }
 
 .spotlight img {
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
     margin: 5px 0;
 }
 
@@ -263,6 +263,7 @@ main section h2 {
     box-sizing: border-box;
     margin: 0;
     padding: 2%;
+    word-wrap: break-word;
 }
 
 .spotlight section h3 {
@@ -352,7 +353,8 @@ form label.sbs {
 
 form label.description textarea {
     display: block;
-    padding: .75rem 0;
+    padding: .75rem 10px;
+    width: 330px;
 }
 
 form label.description {
@@ -431,6 +433,21 @@ form label.top input:required:valid{
 
 .directory-list .businessCards p {
     padding: 4px;
+}
+
+/*ContactUs styles*/
+.contact-info {
+    box-shadow: 8px 8px 8px #681e2e;
+}
+.contact-info h3, .contact-info p {
+    text-align: start;
+    padding-left: 10%;
+}
+
+.contact-info section {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /*Footer styles*/
