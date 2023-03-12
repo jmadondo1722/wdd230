@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+hr {
+    width: 60%;
+}
+
+h1 {
+    background-color: #681e2e;
+    opacity: .8;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #4b6c43;
+}
