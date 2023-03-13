@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/chamberlogo.gif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Chamber of Commerce Home Page for Joseph Wallace in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <title>Pretoria Chamber of Commerce Homepage</title>
 </head>
-
 <body>
-    <div class="noDisplay" id="meetandGreet">    
+    <div class="noDisplay" id="meetAndGreet">    
         <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
     </div>
-
-
     <header class="bannerRoom">
         <div class="brand">
             <a class="logo-link" href="index.html">
@@ -56,7 +51,8 @@
     </header>
     <main class="home-grid">
         <section id="hero-banner">
-            <a href="join.html">Join the PCC</a>
+            <h2>Welcome to Mesa</h2>
+            <a href="join.html">Join the Chamber</a>
             <picture>
                 <source media="(max-width: 600px)" srcset="images/wdd230-org-small.webp">
                 <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.webp">
@@ -64,18 +60,14 @@
                 <img src="images/wdd230-org-large.webp" alt="Lesson 06">
             </picture>
         </section>
-
-
         <section class="event">
-           <b>Ribbon Cutting.</b><br>
-            A ribbon cutting ceremony was held Wednesday morning for the 18-hole disc golf course at Briksburg Golf
-            Course.
-            The course has been reconfigured and upgraded. New features include tee pads, targets and signage.
-        </section>
-
-
+            <b>Ribbon Cutting.</b><br>
+             A ribbon cutting ceremony was held Wednesday morning for the 18-hole disc golf course at Briksburg Golf
+             Course.
+             The course has been reconfigured and upgraded. New features include tee pads, targets and signage.
+         </section>
         <section class="weather">
-            <h2>Pretoria weather</h2>
+            <h2>Weather</h2>
             <div>
                 <picture>
                     <img id="weatherIcon" src="#" alt="Weather Icon">
@@ -87,15 +79,11 @@
             <p>Wind Speed: <span id="windSpeed"></span>km/h</p>
             <p>Wind Chill: <span id="windChill"></span></p>
         </section>
-
-
         <section class="news">
             <H2>Feb. 04, 2023</H2>
             <p>Asked about proposals to change the Reserve Bank’s mandate last week, governor Lesetja Kganyago deflected
                 the question, as he usually does.        
         </section>
-
-
         <div class="spotlight">
             <section class="spotlight1">
                 <H3>Sports Betting</H3>
@@ -110,11 +98,13 @@
                 Transport planners in highly unequal societies such as South Africa face challenges in designing
                 transport systems that meet the needs of diverse user groups. These include groups that are very
                 price-sensitive, and those for whom fast and reliable services are more important.
+
             </section>
-            <section class="large-only">
+            <section id="spotlight3" class="large-only">
                 <h3>Tree Planting Drive held in CBD!</h3>
                 Community organisation Dare to Love, the metro and residents conducted a clean-up and tree-planting
                 drive at the Union Buildings recently under the Servolution movement.
+
             </section>
         </div>
         <div class="medium-display" id="join">
@@ -140,7 +130,7 @@
             <a  href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
                 Location</a>
         </div>
-        
+        <hr>
         <div class="section2">
             <section>
                 <p>&copy;<span id="currentYear"></span>:PCC:</p>

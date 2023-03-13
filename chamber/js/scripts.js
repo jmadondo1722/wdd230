@@ -1,12 +1,14 @@
 
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
+//Current time
 let date1 = document.getElementById("currentTime");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 date1.innerHTML = fulldate;
 
+//Time of last modification
 document.getElementById("currentDate").innerHTML = document.lastModified;
 
 //Hamburger Menu
@@ -18,7 +20,7 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 //Monday/Tuesday Banner
-if (now.getDay() == 2 || now.getDay() == 3){
+if (now.getDay() < 3 && now.getDay() > 0){
     document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }
 
@@ -60,4 +62,3 @@ if("IntersectionObserver" in window) {
 }
 else {
 }
-

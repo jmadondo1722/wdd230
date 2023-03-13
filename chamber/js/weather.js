@@ -1,10 +1,12 @@
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=-25.747868&lon=28.229271&appid=9a7926f848e29af8d4a2a41594d2953a";
+const url = "https://api.openweathermap.org/geo/1.0/direct?q=Pretoria&appid=3b1fb35c7e28ec8031caaefb7622d815";
 
 async function apiFetch() {
   try {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
+      //console.log(data); // this is for testing the call
+      // displayResults(data);
       let lon = data[0]["lon"];
       let lat = data[0]["lat"];
       weatherFetch(lat, lon);
@@ -17,7 +19,7 @@ async function apiFetch() {
 }
 
 async function weatherFetch(lat, lon){
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=9a7926f848e29af8d4a2a41594d2953a`;
+  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=3b1fb35c7e28ec8031caaefb7622d815`;
   try {
     const response2 = await fetch(weatherUrl);
     if (response2.ok){
