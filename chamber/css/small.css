@@ -1,4 +1,403 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+body {
+    background-color: #e6fafc;
+    font-family: "Montserrat", sans-serif;
+    max-height: 914px;
+    font-size: 18px;
+  }
+  header,
+  main,
+  footer {
+    margin: 1.25rem auto;
+  }
+  header,
+  footer {
+    background-color: #27187e;
+  }
+  img {
+    width: 130px;
+  }
+  .footerImg {
+    width: 60px;
+  }
+  a > img {
+    width: 45px;
+    padding-top: 1rem;
+  }
+  .gram {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .logopage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  picture > img {
+    padding: 1rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "Carter One", cursive;
+    color: white;
+    padding-right: 0.5rem;
+  }
+  .blockOne h1 {
+    color: #27187e;
+  }
+  .blockFive div h2 {
+    color: black;
+  }
+  .blockFive div p {
+    color: white;
+  }
+  .socials {
+    display: flex;
+    margin-right: 1rem;
+  }
+  nav button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff9ec;
+    padding: 1rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    color: #fff9ec;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffb2e6;
+  }
+  nav ul li a:hover {
+    background-color: #8447ff;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
+  #hamburgerBtn span:nth-child(1) {
+    display: block;
+  }
+  #hamburgerBtn span:nth-child(2) {
+    display: none;
+  }
+  
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none;
+  }
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+  }
+  
+  .topdate {
+    display: flex;
+    justify-content: right;
+    color: #fff9ec;
+    padding-right: 1rem;
+  }
+  footer {
+    color: #fff9ec;
+    padding: 1rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
+  #location a {
+    color: #fff9ec;
+  }
+  .classFooter {
+    border-top: 1px solid white;
+    padding-top: 1rem;
+  }
+  .blockOne {
+    position: relative;
+    background-color: grey;
+  }
+  .blockOne picture {
+    width: 100%;
+    height: 100%;
+  }
+  .blockOne picture .heroImage {
+    width: 100%;
+    height: 100%;
+  }
+  .blockTwo {
+    height: 15rem;
+    margin: 0.3rem auto;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #27187e;
+    color: white;
+  }
+  .blockThree {
+    height: 15rem;
+    margin: 0.3rem auto;
+    border: 1px solid black;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    background-color: #27187e;
+    color: white;
+  }
+  .blockFour {
+    height: auto;
+    margin: 0.3rem auto;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #27187e;
+  }
+  .blockFour h2 {
+    color: white;
+  }
+  .blockFour p {
+    color: white;
+  }
+  .blockFive {
+    height: auto;
+    margin: 0.3rem auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #27187e;
+  }
+  .sp1 {
+    border: 1px solid black;
+    margin: 0.8rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    background-color: #297373;
+    color: white;
+  }
+  .sp1 h2 {
+    color: white;
+  }
+  .sp1 p {
+    color: white;
+  }
+  .sp2 {
+    border: 1px solid black;
+    margin: 0.8rem;
+    margin-top: 0;
+    padding: 1rem;
+    background-color: #297373;
+    color: white;
+  }
+  .sp2 h2,
+  p {
+    color: white;
+  }
+  .sp3 {
+    display: none;
+  }
+  .blockSix {
+    display: none;
+  }
+  
+  .blockOne h1 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    margin: 0;
+  }
+  .blockOne h2 {
+    position: absolute;
+    top: 10rem;
+    left: 17rem;
+    margin: 0;
+    background-color: #27187e;
+    color: white;
+    padding: 0.8rem;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 5px;
+  }
+  .blockTwo h2 {
+    text-align: center;
+  }
+  .p2 {
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  .blockThree h2 {
+    text-align: center;
+  }
+  
+  .joinUsMess {
+    background-color: #e9d758;
+    padding: 0.5rem;
+    box-shadow: #7a0008 1px 1px 10px;
+    top: 0rem;
+    left: 0rem;
+  }
+  .joinUsMess p {
+    color: black;
+  }
+  
+  .blockThree p {
+    border-top: 1px solid white;
+  }
+  .discMain {
+    background-color: #27187e;
+  }
+  .discMain section {
+    margin: 1rem;
+  }
+  .map {
+    width: 100%;
+  }
+  .discMain section h1 {
+    padding: 1rem;
+  }
+  .discMain section div {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .discMain section .gallery {
+    display: flex;
+  }
+  picture img {
+    width: 100%;
+    filter:blur(0em);
+    transition: filter 0.5s;
+  }
+  
+  picture img[data-src]{
+    filter: blur(0.2em);
+  }
+  .gallery p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  picture {
+    padding-right: 1rem;
+  }
+  
+  /*---------- FORM ----------*/
+  
+  .mainform {
+  display: block;
+  background-color: #27187e;
+  }
+  form fieldset {
+    margin: 2rem 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 100%;
+    max-width: 40rem;
+  }
+  
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  form label.top input, form label.top textarea {
+    --webkit-appearance:none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: lightgrey;
+    width: 100%;
+    max-width: 20rem;
+    background-color: lightgrey;
+  }
+  
+  form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: white;
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+  }
+  
+  form label.top input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+  .dirmain {
+    display: block;
+  }
+  .cards {
+    background-color: #297373;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  
+  .cards section {
+    border: 2px solid black;
+    margin: .5rem;
+    padding: 1rem;
+  }
+  .cards section img {
+    margin: 2rem;
+  }
+  .menu {
+      margin: 1rem auto;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 0.5rem;
+      background-color: #bbb;
+      text-align: center;
+  }
+  
+  .menu button {
+      padding: 1rem;
+      font-weight: 700;
+  }
+  
+  .list {
+      display: block;
+  }
+  
+  .list section {
+      display: block;
+      margin: 0;
+      padding: 0.25rem;
+    border: none;
+  }
+  
+  .list section > * {
+      margin: 0 1rem;
+  }
+  
+  .list section img {
+      display: none; 
+  }
+  /*                         Trial                        */
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
 
 .noDisplay {
     display: none;
@@ -24,7 +423,7 @@ img {
     max-width: 100%;
 }
 
-/*-----------------------------Header-----------------------*/
+                                        /*Header*/
 header {
     background-color: #681e2e;
     display: grid;
@@ -145,7 +544,7 @@ header a {
     display: block;
 }
 
-/*--------------------Main Styles---------------------------*/
+/*Main Styles*/
 main {
     max-width: 90%;
     margin-left: 5%;
@@ -208,6 +607,7 @@ main section h2 {
 .event h3{
     font-size: 110%;
     color: #721121;
+
 }
 
 .event p a {
@@ -254,8 +654,7 @@ main section h2 {
 }
 
 .spotlight img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
     margin: 5px 0;
 }
 
@@ -263,7 +662,6 @@ main section h2 {
     box-sizing: border-box;
     margin: 0;
     padding: 2%;
-    word-wrap: break-word;
 }
 
 .spotlight section h3 {
@@ -287,7 +685,7 @@ main section h2 {
     display: none;
 }
 
-/*----------------------Discover Styles---------------------*/
+                                           /*Discover Styles*/
 #daysBetweenVisits {
     margin: 0 auto;
     width: 415px;
@@ -307,7 +705,7 @@ main section h2 {
     width: 80%;
 }
 
-/*Join Styles*/
+                                            /*Join Styles*/
 form {
     text-align: start;
 }
@@ -353,10 +751,8 @@ form label.sbs {
 
 form label.description textarea {
     display: block;
-    padding: .75rem 10px;
-    width: 330px;
+    padding: .75rem 0;
 }
-
 
 form label.description {
     display: block;
@@ -388,7 +784,7 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
-/*Directory Styles*/
+                                               /*Directory Styles*/
 .businessCards img {
     width: 100%;
     height: auto;
@@ -411,12 +807,11 @@ form label.top input:required:valid{
     padding: 8px;
 }
 
-/*Directory Grid*/
+                                             /*Directory Grid*/
 .directory-grid .businessCards section {
     padding: 5%;
     box-shadow: 8px 8px 10px #721121;
 }
-
 
 .directory-grid .businessName {
     display: none;
@@ -437,22 +832,7 @@ form label.top input:required:valid{
     padding: 4px;
 }
 
-/*ContactUs styles*/
-.contact-info {
-    box-shadow: 8px 8px 8px #681e2e;
-}
-.contact-info h3, .contact-info p {
-    text-align: start;
-    padding-left: 10%;
-}
-
-.contact-info section {
-    border: none;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-/*Footer styles*/
+                                              /*Footer styles*/
 footer {
     background-color: #681e2e;
     display: block;
@@ -498,4 +878,30 @@ footer {
 
 hr {
     max-width: 80%;
+}
+
+/* ---------------------------------------------------Addition-------------------------------------------------------------- */
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bbb;
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.cards {
+    background-color: #297373;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.dirmain {
+    display: block;
 }

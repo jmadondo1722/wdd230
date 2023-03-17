@@ -1,4 +1,4 @@
-const url = 'https://jmadondo1722.github.io/wdd230/chamber/data.json';
+const url = 'data/data.json';
 
 async function getDirectoryData(){
     const response = await fetch(url);

@@ -50,6 +50,6 @@ if (weekday === 1 || weekday === 2){
     article.setAttribute('class', 'banner-message');
 }
 //Monday/Tuesday Banner
-if (now.getDay() < 3 && now.getDay() > 0){
+if (now.getDay() === 3 || now.getDay() === 0){
     document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }

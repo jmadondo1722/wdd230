@@ -1,0 +1,79 @@
+{
+  "companies": [
+    {
+      "companyname":"DFR Kwakudi",
+      "address":"144 General Beyers Street, Pretoria North, Gauteng",
+      "phoneNumber":"+27 (12) 546 7574",
+      "websiteURL":"https://www.dfrkwakudi.com/",
+      "logo":"images/logos/DFRLogo.webp",
+      "membershipLevel" : "Bronze Membership" 
+    },
+    {
+      "companyname":"Tshwane University of Technology",
+      "address":"Staatsartillerie Rd, Pretoria West, Pretoria, 0183",
+      "phoneNumber":"+27 (86) 110 2421",
+      "websiteURL":"https://www.tut.ac.za/",
+      "logo":"images/logos/TUTLogo.webp",
+      "membershipLevel" : "Gold Membership"
+    },
+    {
+      "companyname":"Mothle Jooma Sabdia Inc.",
+      "address":"Ground Floor, Duncan Manor, 150 Brooks St, Cnr. Jan Shoba, Brooklyn, Pretoria, 0181",
+      "phoneNumber":"+27 (12) 362 3137",
+      "websiteURL":"https://www.mjs-inc.co.za/",
+      "logo":"images/logos/MJSLogo.webp",
+      "membershipLevel" : "Silver Membership" 
+      
+    },
+    {
+      "companyname":"Coricraft Furniture",
+      "address":"457 Atterbury Rd, Pretoria East, Pretoria, 0188",
+      "phoneNumber":"+27 (86) 110 8975",
+      "websiteURL":"https://www.coricraft.co.za/",
+      "logo":"images/logos/CoricraftLogo.webp",
+      "membershipLevel" : "Silver Membership"
+
+    },
+    {
+      "companyname":"Eskom",
+      "address":"564 Kings Rd, Pretoria WestEast, Pretoria, 0183",
+      "phoneNumber":"+27 (12) 170 7821",
+      "websiteURL":"https://www.eskom.co.za/",
+      "logo":"images/logos/EskomLogo.webp",
+      "membershipLevel" : "Bronze Membership" 
+    },
+    {        
+      "companyname":"Big5 Cookware",
+      "address":"Stand 21 Selosesha Industrial Area, Thaba Nchu, Free State, South Africa",
+      "phoneNumber":"+27 (51) 8741 300",
+      "websiteURL":"https://www.big5cookware.co.za/",
+      "logo":"images/logos/Big5CookwareLogo.webp",
+      "membershipLevel" : "Silver Membership" 
+    },
+    {
+      "companyname":"Aumic Engineering",
+      "address":"16 Derick Coetzee Str Jet Park, Boksburg, 1459",
+      "phoneNumber":"+27 (11) 397 2010",
+      "websiteURL":"https://www.aumic.co.za/",
+      "logo":"images/logos/AumicLogo.webp",
+      "membershipLevel" : "Gold Membership" 
+    
+    },
+    {
+      "companyname":"Bosch Holdings (Pty) Ltd",
+      "address":"23A Flanders Drive, Mount Edgecombe, 4302",
+      "phoneNumber":"+27 (86) 333 9000",
+      "websiteURL":"https://www.boschholdings.co.za/",
+      "logo":"images/logos/BoschHoldingsLogo.webp",
+      "membershipLevel":"NP Membership"
+    },
+    {
+      "companyname":"DLV Afrika",
+      "address":"564 Kings Rd, Pretoria WestEast, Pretoria, 0183",
+      "phoneNumber":"+27 (12) 170 5248",
+      "websiteURL":"http://www.dlvafrica.co.za/dlv/",
+      "logo":"images/logos/DLVLogo.webp",
+      "membershipLevel" : "Gold Membership" 
+    }
+  ]
+}

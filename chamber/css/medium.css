@@ -1,144 +1,97 @@
-@media only screen and (min-width: 40em){
-
-    /*main*/
-    .home-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto auto auto auto auto;
-    }
-    
-    main section, main div {
-        grid-column: 1/3;
-        margin: 0.3rem;
-    }
-    
-    .event {
-        grid-row: 6/7;
-        grid-column: 1/2;
-    }
-    
-    .weather {
-        grid-row: 6/7;
-        grid-column: 2/3;
-    }
-    
-    .spotlight {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.5%;
-    }
-    
-    .spotlight section {
-        height: 100%;
-        width: 100%;
-    }
-    
-    .spotlight1 {
-        grid-column: 1/2;
-    }
-    
-    .spotlight2 {
-        grid-column: 2/3;
-    }
-    
-    .medium-display {
-        display: block;
-    }
-    
-    #join {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #join a {
-        text-decoration: none;
-        background-color: #F28123;
-        border-radius: 10px;
-        color: black;
-        display: block;
-        width: 90%;
-        margin-top: 3%;
-        padding: 5% 0 5% 0;
-        box-shadow: 5px 5px 5px #603613;
-    }
-    
-    #join a:hover {
-        background-color: #ececec;
-        color: #69140E;
-    }
-    
-    /*Discover Styles*/
-    
-    .demographic-data p {
-        margin-left: 2%;
-        margin-right: 2%;
-        background-color: #F28123;
-    }
-    
-    .market-highlight {
-        width: 100%;
-    }
-    
-    /*Directory Styles*/
-    .businessCards section {
-        box-sizing: border-box;
-        grid-column: auto;
-    }
-    
-    .businessCards a {
-        overflow-wrap: break-word;
-    }
-    
-    /*Directory Grid*/
-    .directory-grid .businessCards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: 15px;
-    }
-    
-    /*Directory List*/
-    
-    /*footer*/
+@media only screen and (min-width: 35rem) {
     footer {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
     }
+    .toppart {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      justify-items: center;
+      align-items: center;
+    }
+    .footerImg {
+      justify-self: end;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 1rem;
+    }
+    .blockOne {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      margin: 0;
+      height: auto;
+      position: relative;
+    }
+    .blockTwo {
+      grid-column: 1/2;
+      grid-row: 5/6;
+      margin: 0;
+      height: auto;
+    }
+    .blockThree {
+      grid-column: 2/3;
+      grid-row: 5/6;
+      margin: 0;
+      height: auto;
+    }
+    .blockFour {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      margin: 0;
+      height: auto;
+      
+    }
+    .blockFive {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: auto;
+    }
+    .sp1 {
+      grid-row: 1/3;
+      border: 1px solid black;
+      margin: 0.8rem;
+      padding: 1rem;
+      background-color: #297373;
+      height: auto;
+    }
+    .sp2 {
+      grid-row: 1/3;
+      border: 1px solid black;
+      margin: 0.8rem;
+      padding: 1rem;
+      background-color: #297373;
+      height: auto;
+    }
+    .sp3 {display: none;}
+    .blockSix {
+      display: block;
+      grid-column: 1/3;
+      grid-row: 4/5;
+      height: auto;
+      margin: 0;
+      border: 1px solid black;
+      padding: 1rem;
+      background-color: #27187E;
+    }
+    .blockSix h2 {
+      background-color: #27187E;
+      color: white;
+      padding: .8rem;
+      box-shadow: 1px 1px 4px 1px #888;
+          border-radius: 5px;
+    }
+   .discMain {
+    display: block;
+   }
+   picture img:hover {box-shadow: 0 0 50px #333;}
+    }
+
+    /*                                             Trial                                                */
+
     
-    /*section 1*/
-    .section1 .logo-link {
-        width: 150px;
-    }
-    
-    .section1 .company {
-        text-align: left;
-        padding: 5%;
-    }
-    
-    .section1 {
-        display: flex;
-        max-width: 100%;
-        margin: 0;
-        align-items: center;
-    }
-    
-    /*section 2*/
-    .section2 {
-        grid-column: 1/3;
-    }
-    
-    .section2 section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-    }
-    
-    hr {
-        grid-column: 1/3;
-        width: 100%;
-    }
-    
-    }
