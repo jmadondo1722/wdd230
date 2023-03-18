@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Chamber of Commerce Home Page for Joseph Wallace in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <title>Pretoria Chamber of Commerce Homepage</title>
+    </head>
+<body>
+    <div class="noDisplay" id="meetAndGreet">    
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header class="bannerRoom">
+        <div class="brand">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="images/logo-w.webp" alt="Pretoria Chamber of Commerce">
+            </a>
+            
+            <section class="company">
+                <h1>Pretoria Chamber of Commerce</h1>
+               
+            </section>
+        </div>
+        <div class="navigation">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook1.png" alt="facebook">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin-icon_1.jpg" alt="linkedin">
+                </a>
+            </div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="currentTime"></span>
+    </header>
+    <main class="home-grid">
+        <section id="hero-banner">
+            <h2>Welcome to Pretoria</h2>
+            <a href="join.html">Join the Chamber</a>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 768px)" srcset="images/wdd230-org-medium.webp">
+                <source media="(max-width: 1024px)" srcset="images/wdd230-org-large.webp">
+                <img src="images/wdd230-org-large.webp" alt="Lesson 06">
+            </picture>
+        </section>
+        <section class="event">
+            <b>Ribbon Cutting.</b><br>
+             A ribbon cutting ceremony was held Wednesday morning for the 18-hole disc golf course at Briksburg Golf
+             Course.
+             The course has been reconfigured and upgraded. New features include tee pads, targets and signage.
+         </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div>
+                <picture>
+                    <img id="weatherIcon" src="#" alt="Weather Icon">
+                </picture>
+                <p><span id="temperature">Temp Placeholder</span>°C</p>
+            </div>
+                <h3><span id="condition">Weather Condition</span></h3>
+            <hr>
+            <p>Wind Speed: <span id="windSpeed"></span>km/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+        </section>
+        <section class="news">
+            <H2>Feb. 04, 2023</H2>
+            <p>Asked about proposals to change the Reserve Bank’s mandate last week, governor Lesetja Kganyago deflected
+                the question, as he usually does.        
+        </section>
+        <div class="spotlight">
+            <section class="spotlight1">
+                <H3>Sports Betting</H3>
+                
+                <H4>"Super bets where everyone is a winner!"</H4>
+                <hr>
+                <p>desk@superbets.co.za</p>
+                <p>+27 12 124 8574 | Website</p>
+            </section>
+            <section class="spotlight2">
+                <H3>Bus Rapid Transit.</H3>
+                Transport planners in highly unequal societies such as South Africa face challenges in designing
+                transport systems that meet the needs of diverse user groups. These include groups that are very
+                price-sensitive, and those for whom fast and reliable services are more important.
+
+            </section>
+            <section id="spotlight3" class="large-only">
+                <h3>Tree Planting Drive held in CBD!</h3>
+                Community organisation Dare to Love, the metro and residents conducted a clean-up and tree-planting
+                drive at the Union Buildings recently under the Servolution movement.
+
+            </section>
+        </div>
+        <div class="medium-display" id="join">
+            <a href="join.html">Join Us!</a>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+    </main>
+    <footer>
+        <div class="section1">
+            <a class="logo-link" href="index.html">
+                <img src="images/logo3-w.webp" alt="Pretoria Logo image">
+            </a>
+            <section class="company">
+                <h2>Pretoria Chamber of Commerce</h2>
+                <h3>215 Ben Viljoen Street, Pretoria North, Pretoria, 0182</h3>
+               
+            </section>
+        </div>
+        <div>
+            <p>mad22005@byui.edu</p>
+            <p>+(27) 73 590 8361</p>
+            <p></p>
+            <a  href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
+                Location</a>
+        </div>
+        <hr>
+        <div class="section2">
+            <section>
+                <p>&copy;<span id="currentYear"></span> Pretoria Chamber:</p>
+                <h3>Josiah Madondo:</h3>
+                <p>WDD 230 Chamber Project:</p>
+            </section>
+            <p>Last Modification: <Span id="currentDate"></Span></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>

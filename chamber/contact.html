@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/small.css" />
+        <link rel="stylesheet" href="styles/medium.css" />
+        <link rel="stylesheet" href="styles/large.css" />
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description"
+            content="Chamber of Commerce Home Page for Josiah Madondo for WDD 230: Web Frontend Development at Brigham Young University - Idaho" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Pretoria Chamber of Commerce Homepage</title>
+    </head>
+
+
+<body>
+    <div class="noDisplay" id="meetAndGreet">    
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+
+    <header class="bannerRoom">
+        <div class="brand">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="images/logo-w.webp" alt="Pretoria Chamber of Commerce" />
+            </a>
+
+            <section class="company">
+                <h1>Pretoria Chamber of Commerce</h1>
+            </section>
+        </div>
+
+        <div class="navigation">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook1.png" alt="facebook" />
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin-icon_1.jpg" alt="linkedin" />
+                </a>
+            </div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="currentTime"></span>
+    </header>
+    <main id="contact-grid">
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">First Name<input type="text" name="fname" required></label>
+                <label class="top">Last Name<input type="text" name="lname" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="user@email.com" required></label>
+                <label class="description">Question/Concern<textarea name="concern" required></textarea></label>
+            </fieldset>
+
+            <input class="submitBtn" type="submit" name="submitf" value="Send Question/Concern">
+        </form>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <section>
+                <h3>Address</h3>
+                <p>215 Ben Viljoen Street, Pretoria North, Pretoria, 0182</p>
+            </section>
+            <section>
+                <h3>Phone</h3>
+                <p>+27 (12) 456-7887</p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">info@pccsa.co.za</a>
+            </section>
+            <section>
+                <h3>Business Hours</h3>
+                <p>Available 6:00am-6:00pm Monday - Friday</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="section1">
+            <a class="logo-link" href="index.html">
+                <img src="images/logo3-w.webp" alt="Pretoria Logo image" />
+            </a>
+            <section class="company">
+                <h2>Pretoria Chamber of Commerce</h2>
+            </section>
+        </div>
+        <div>
+            <p>mad22005@byui.edu</p>
+            <p>+(27) 73 590 8361</p>
+            <p></p>
+            <a
+                href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
+                Location</a>
+        </div>
+        <hr>
+
+        <div class="section2">
+            <section>
+                <p>&copy;<span id="currentYear"></span> Pretoria Chamber</p>
+                <h3>Josiah Madondo</h3>
+                <p>WDD 230 Chamber Project:</p>
+            </section>
+            <p>Last Modification: <span id="currentDate"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

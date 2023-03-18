@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Chamber of Commerce Home Page for Josiah Madondo for WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Pretoria Chamber of Commerce Homepage</title>
+  </head>
+
+  <body>
+    <div class="noDisplay" id="meetAndGreet">
+      <span
+        >🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+        p.m.</span
+      >
+    </div>
+
+    <header class="bannerRoom">
+      <div class="brand">
+        <a class="logo-link" href="index.html">
+          <img
+            class="logo"
+            src="images/logo-w.webp"
+            alt="Pretoria Chamber of Commerce"
+          />
+        </a>
+
+        <section class="company">
+          <h1>Pretoria Chamber of Commerce</h1>
+        </section>
+      </div>
+
+      <div class="navigation">
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook1.png" alt="facebook" />
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="images/linkedin-icon_1.jpg" alt="linkedin" />
+          </a>
+        </div>
+        <button id="hamburgerBtn">&#9776;</button>
+      </div>
+
+      <nav id="primaryNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a class="active" href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <span id="currentTime"></span>
+    </header>
+    <main class="join-container">
+
+      <h2>Join Us!</h2>
+      <div class="join">
+      <form action="https://jmadondo1722.github.io/wdd230/chamber/thankyou.html" method="get">
+          <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
+          <label class="info">Last name*<input type="text" name="lname" required=""></label><br>
+          <label class="top">Position Title<input type="text" name="title" pattern=""></label>
+          <label class="info">Email*:<input type="email" name="email" placeholder="user@email.com" required=""></label><br>
+          <label class="info">Cell Phone Number*<input type="tel" name="phone" required=""></label><br>
+          <label class="info">Business name/title<br><input type="text" name="title"></label><br>
+          <label for="membershipLevel">Membership Level*<select name="membershipLevel" id="membershipLevel" required="">
+                <option value="" disabled="" selected="">Choose Membership</option>
+                <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label>
+              Business Description
+              <textarea name="businessDescription" cols="30" rows="10"></textarea>
+            </label>
+            <input type="hidden" id="date" name="date" value="CurrentTime">
+            <input type="hidden" id="time" name="time" value="CurrentDate">
+            <input type="submit" value="Submit Application" class="btn">
+      </form>
+      <section class="benefits">
+        <h2>NP Membership</h2>
+        <p class="price">Free!</p>
+        <p>24/7 Support</p>
+        <p>Community Event Access</p>
+        <br>
+        <hr>
+        <h2>Bronze Membership</h2>
+        <p class="price">$19.99/mo</p>
+        <p>24/7 Support</p>
+        <p>Community Event Access</p>
+        <p>Funding</p>
+        <br>
+        <hr>
+        <h2>Silver Membership</h2>
+        <p class="price">$25/mo</p>
+        <p>24/7 Support</p>
+        <p>Community Event Access</p>
+        <p>Funding</p>
+        <p>Training</p>
+        <p>Event Discounts</p>
+        <br>
+        <hr>
+        <h2>Gold Membership</h2>
+        <p class="price">$28.99/mo</p>
+        <p>24/7 Support</p>
+        <p>Community Event Access</p>
+        <p>Funding</p>
+        <p>Event Discounts</p>
+        <p>Training</p>
+        <p>Spotlight advertising on site</p>
+       
+      </section>
+      </div>
+      </main>
+    <footer>
+      <div class="section1">
+        <a class="logo-link" href="index.html">
+          <img src="images/logo3-w.webp" alt="Pretoria Logo image" />
+        </a>
+        <section class="company">
+          <h2>Pretoria Chamber of Commerce</h2>
+        </section>
+      </div>
+      <div>
+        <p>mad22005@byui.edu</p>
+        <p>+(27) 73 590 8361</p>
+        <p></p>
+        <a
+          href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931"
+          >📍 Location</a
+        >
+      </div>
+      <hr> 
+      <div class="section2">
+        <section>
+          <p>&copy;<span id="currentYear"></span>PCC</p>
+          <h3>Josiah Madondo</h3>
+          <p>WDD 230 Chamber Project:</p>
+        </section>
+        <p>Last Modification: <span id="currentDate"></span></p>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/daysSinceLast.js"></script>
+  </body>
+</html>
