@@ -5,11 +5,12 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Abel', serif;
+    font-family: 'Abel', 'san serif';
+    color: white;
 }
 
 p, a {
-    font-family: 'Abel', serif;
+    font-family: 'Abel', 'san serif';
 }
 
 body {
@@ -22,6 +23,7 @@ body {
 
 img {
     max-width: 100%;
+    color: white;
 }
 
 /*Header Styles*/
@@ -31,7 +33,7 @@ header {
     grid-template-columns: 2fr 1fr;
     margin-bottom: 5%;
     padding: 0 2% 3% 2%; border-radius: 10px;
-    color: #f4f7f5;
+    color: white;
 
 }
 
@@ -91,7 +93,7 @@ header .company h1 {
 }
 
 .active {
-    background-color: rgba(0,0,0,0.6);
+    background-color: black;
     color: white;
 }
 
@@ -104,7 +106,7 @@ header nav.open {
 }
 
 header a {
-    color: black;
+    color: white;
 }
 
 #primaryNav a {
@@ -186,7 +188,7 @@ main section h2 {
 
 #hero-banner a {
     background-color: #F28123;
-    color:#721121;
+    color:black;
     text-decoration: none;
     position: absolute;
     box-shadow: 3px 3px 3px #603613;
@@ -248,7 +250,7 @@ main section h2 {
 }
 
 .spotlight {
-    background-color: #ececec;
+    background-color: white;
     padding: 2%;
     border: 1px solid black;
 }
@@ -257,6 +259,7 @@ main section h2 {
     max-width: 100%;
     height: auto;
     margin: 5px 0;
+    color: black;
 }
 
 .spotlight a {
