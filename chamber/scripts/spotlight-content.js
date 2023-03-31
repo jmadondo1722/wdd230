@@ -1,36 +1,38 @@
 async function getBusinessesData() {
-    const response = await fetch("json/data.json");
+    const response = await fetch("data/data.json");
     const data = await response.json();
+    console.log(data.businesses)
     displaySpotlights(data.businesses);
+
 }
 
 async function displaySpotlights(businesses) {
-    const spotlight1 = document.querySelector(".spotlight1");
+    const spotlight1 = document.querySelector(".spotlight");
     const spotlight2 = document.querySelector(".spotlight2");
     const spotlight3 = document.querySelector("#spotlight3");
     let adMembers = [];
 
     businesses.forEach((business) => {
-        if (business.membershipLevel == "Gold" || business.membershipLevel == "Silver")
+        if (business.membershipLevel == "Gold Membership" || business.membershipLevel == "Silver Membership")
         {
             adMembers.push(business);
         }
     })
-    
+    console.log(adMembers)
     shuffleArray(adMembers);
-                                                                                //Spotlight 1
+    //Spotlight 1
     let chosenSpotlight = adMembers.pop();
     let logo = document.createElement("img");
     let hr = document.createElement("hr");
     let siteLink = document.createElement("a");
-    let number = document.createElement("p");
+    let phone = document.createElement("p");
 
-    number.textContent = chosenSpotlight.number;
+    phone.textContent = chosenSpotlight.number;
         
     siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight.siteURL)
 
-    logo.setAttribute("src", chosenSpotlight.siteLogo);
+    logo.setAttribute("src",chosenSpotlight.siteLogo);
     logo.setAttribute("alt", `siteLogo of ${chosenSpotlight.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
@@ -40,22 +42,22 @@ async function displaySpotlights(businesses) {
     spotlight1.appendChild(logo);
     spotlight1.appendChild(hr);
     spotlight1.appendChild(siteLink);
-    spotlight1.appendChild(number);
+    spotlight1.appendChild(phone);
 
-                                                                                //Spotlight 2
-    let chosenSpotlight2 = adMembers.pop();
+    //Spotlight 2
+    let businesses2 = adMembers.pop();
     logo = document.createElement("img");
     hr = document.createElement("hr");
     siteLink = document.createElement("a");
-    number = document.createElement("p");
+    phone = document.createElement("p");
 
-    number.textContent = chosenSpotlight2.number;
+    phone.textContent = businesses2.number;
         
     siteLink.textContent = "Visit Site";
-    siteLink.setAttribute("href", chosenSpotlight2.siteURL)
+    siteLink.setAttribute("href", businesses2.siteURL)
 
-    logo.setAttribute("src", chosenSpotlight2.siteLogo);
-    logo.setAttribute("alt", `siteLogo of ${chosenSpotlight2.companyName}`);
+    logo.setAttribute("src", businesses2.siteLogo);
+    logo.setAttribute("alt", `siteLogo of ${businesses2.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
     logo.setAttribute("height", "250");
@@ -64,16 +66,16 @@ async function displaySpotlights(businesses) {
     spotlight2.appendChild(logo);
     spotlight2.appendChild(hr);
     spotlight2.appendChild(siteLink);
-    spotlight2.appendChild(number);
+    spotlight2.appendChild(phone);
 
-                                                                            //Spotlight 3
+    //Spotlight 3
     let chosenSpotlight3 = adMembers.pop();
     logo = document.createElement("img");
     hr = document.createElement("hr");
     siteLink = document.createElement("a");
-    number = document.createElement("p");
+    phone = document.createElement("p");
 
-    number.textContent = chosenSpotlight3.number;
+    phone.textContent = chosenSpotlight3.number;
         
     siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight3.siteURL)
@@ -88,17 +90,10 @@ async function displaySpotlights(businesses) {
     spotlight3.appendChild(logo);
     spotlight3.appendChild(hr);
     spotlight3.appendChild(siteLink);
-    spotlight3.appendChild(number);
+    spotlight3.appendChild(phone);
 }
 
 getBusinessesData();
-
-
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min; 
-}
 
 
 function shuffleArray(array) {

@@ -22,7 +22,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     color: white;
 }
 
@@ -180,7 +180,7 @@ main section h2 {
 
 #hero-banner h2 {
     position: absolute;
-    color: #721121;
+    color: black;
     text-shadow: 2px 2px 5px #F28123;
     margin-left: 3%;
     font-size: 1.5rem;
@@ -209,16 +209,16 @@ main section h2 {
 
 .event h3{
     font-size: 110%;
-    color: #721121;
+    color: white;
 }
 
 .event p a {
     text-decoration: none;
-    color: #721121;
+    color: white;
 }
 
 .event p a:hover {
-    color: #721121;
+    color: white;
 }
 
 #condition {
@@ -259,7 +259,7 @@ main section h2 {
     max-width: 100%;
     height: auto;
     margin: 5px 0;
-    color: black;
+    color: white;
 }
 
 .spotlight a {
@@ -347,7 +347,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #7BC950;
+    color: black;
     font-size: 1rem;
 }
 
