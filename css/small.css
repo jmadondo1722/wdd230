@@ -1,93 +1,106 @@
 
-*{
-    margin: .5rem;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap');
 
 body{
-    
-    line-height: 1,5;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     font-family: 'Montserrat', 'Abel', sans-serif;
-    color: #333;
-    height: 100%;
 }
 
-header, footer {
-
-    background-color: #ea526f;
-    text-align: center;
-    color:#ffffff;
-    padding: 1rem;
-    border-radius: 10px;
-    
+a.custom-link {
+    color: white;
+    background-color: #4d4dff;
 }
-
-
-footer {
-    font-size: 0.9rem;
-    padding: 10px;
+  
+  
+.header{
+    font-family: 'Montserrat', 'Abel', sans-serif;
+    color: black;
+    background-color: #f0f0f0;
 }
-
-
-header img {
-	width: 200px;
-    height: auto;
-    border-radius: 10px 10px 10px 10px;
+  
+.raised {
+    box-shadow: 0rem 0rem 1rem 0.5rem #0005;
+  }
+  
+.text-raised {
+    text-shadow: 4px 4px 16px #0009;
 }
-
-h1{
-    font-size: 2rem;
-    text-align: center;
-   }
-
-h2{
-    font-size: 1.5rem;
-    
+  
+.flex {
+    display: flex;
 }
-
-.copyright{
-    text-align: center;
-    margin: 0 auto;
+  
+.j-center{
+    justify-content: center;
 }
-
-p{
-text-align: center;
-margin: 0 auto;
-
+  
+.f-column{
+    flex-direction: column;
 }
-
-header, main, footer{
-    margin: 0 auto;
-    padding: 0,75rem;
-    max-width: 35rem;
+  
+.a-center{
+    align-items: center;
+  
 }
-
-header {
-    margin-top: 10px;
+  
+.center{
+    justify-content: center;
+    align-items: center;
 }
-
-ul, li {
-    font-size: 1rem;
+  
+.card {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #ea256f;
 }
-
+  
+.img-box {
+    height: 8rem;
+    width: 7rem;
+    border-radius: 0.25rem;
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+    object-fit: cover;
+}
+  
+.link-box {
+    border-bottom: 0.1rem solid #c5c5c5;
+    border-top: 0.1rem solid #c5c5c5;
+}
+  
 .text-white {
     color: white;
-    font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 1rem;
-
+}
+  
+.text-yellow {
+    color: yellow;
 }
   
 .italic {
     font-style: italic;
-    font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 1rem;
-  
 }
-
   
 .text-light {
     color: #454545;
-    font-family: 'Montserrat', 'Abel', sans-serif;
-    font-size: 1rem;
-  
 }
+
+p.custom-paragraph {
+    color: #ffffff;
+    background-color: #b50e48;
+  }
+
+p.custom-paragraphe {
+    color: #ffff00;
+    background-color: #b50e48;
+  }
+
+  a.custom-linke {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  
+

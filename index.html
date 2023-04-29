@@ -1,60 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 230 Assignment Portal</title>
-	<meta
-      name="Description"
-      content="Assignment portal: Josiah Madondo - WDD 230: Web Frontend Development at Brigham Young University - Idaho"
-    />
-	<link rel="icon" href="favicon.ico">
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap"
-    />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-	
-	<link rel="stylesheet" href="css/small.css"/>
-	
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assignment portal for Josiah Madondo in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/small.css">
+  <!-- <link rel="shortcut icon" href="images/me.jpg" type="image/x-icon"> -->
+  <title>Course Assignment Portal</title>
 </head>
-
 <body>
-
-	<header>
-		<img src="images/me.jpg" alt="My Image"/>
-		<h1>Josiah Madondo</h1>
-	</header>
-
-	<main>
-		<h2>WDD230: Assignment Portal</h2>
-		<hr>
-		<ul>
-			<li>Lesson 02: <a href="lesson2/design-principles.html">Design Principles</a></li>
-			<li>Lesson 03: <a href="lesson3/index.html"> Website Planning Document</a></li>
-			<li>Lesson 04: <a href="Title">Title</a></li>
-			<!-- <li>B.O.M: <a href="B.O.M/bom.html">Book of Mormon - Top 25</a></li> -->
-			<li>Lesson 05: <a href="Title">Title</a></li>
-			<li>Lesson 06: <a href="Title">Title</a></li>
-			<li>Lesson 07: <a href="Title">Title</a></li>
-			<!-- <li>Lesson 07: <a href="chamber/discover.html">The Discover Page - Image Section</a></li> -->
-			<li>Lesson 08: <a href="Title">Title</a></li>
-			<!-- <li>Lesson 08: <a href="chamber/join.html">Join Page</a></li> -->
-			<li>Lesson 09: <a href="Title">Title</a></li>
-			<li>Lesson 10: <a href="Title">Title</a></li>
-			<li>Lesson 11: <a href="Title">Title</a></li>
-		</ul>
-		<hr>
-		<p class="text-light italic">Some lessons may need more than one activity/assignment link</p>
-	</main>
-	<footer>
-		<div class= "copyright"> &copy; <span id="copyrightyear"></span> ǀ Josiah Madondo ǀ South Africa ǀ</div>
-	
-		<p>Last updated <span id="modify"></span></p>
-
-					
-	</footer>	
-<script defer src="js/dates.js"></script>
+  <header>
+    <div class="flex a-center card raised">
+      <div>
+        <img src="images/me.jpg" alt="Josiah Madondo Profile Pic" class="img-box raised">
+      </div>
+      <div>
+        <h1 class="text-white text-raised">Josiah Madondo</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <WDD class="header">WDD 230: Assignment Portal</h2>
+    <div class="link-box">
+      <ul>
+        <li>Lesson 02: <a href="lesson2/design-principles.html" class="custom-link">Design Principles</a>
+        <li>Lesson 03: <a href="lesson3" class="custom-link">Website Planning Document</a>
+        <li>Lesson 04: <a href="#" class="custom-linke">Title</a>
+        <li>Lesson 05: <a href="#" class="custom-linke">Title</a>
+        <!-- <li>Lesson 05: <a href="#"></a>Title</li> -->
+        <li>Lesson 06: <a href="#" class="custom-linke">Title</a>
+        <li>Lesson 07: <a href="#" class="custom-linke">Title</a>
+        <!-- <li>Lesson 07: <a href="#"></a>Title</li> -->
+        <li>Lesson 08: <a href="#" class="custom-linke">Title</a>
+        <!-- <li>Lesson 08: <a href="#"></a>Title</li> -->
+        <li>Lesson 09: <a href="#" class="custom-linke">Title</a>
+        <li>Lesson 10: <a href="#" class="custom-linke">Title</a>
+        <li>Lesson 11: <a href="#" class="custom-linke">Title</a>
+      </ul>
+    </div>
+    <p class="text-light italic">Some lessons may need more than one activity/assignment link</p>
+  </main>
+  <footer>
+    <div class="flex f-column center card">
+      <p class="custom-paragraph">&copy; <span id="year"></span> | Josiah Madondo | Pretoria, South Africa</p>
+      <p class="custom-paragraphe">Last Updated: <span id="updated"></span></p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
