@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header{
     display: flex;
-    background-color: #ea5250;
+    background-color: #FFCDD2;
     color: #ffffff;
     justify-content: center;
     padding: 1rem;
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    background-color: #ea5250;
+    background-color: #FFCDD2;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-    background-color: #ea5250;
+    background-color: #FFCDD2;
     max-width: 95%;
     border: #e4e4e4 solid 5px;
     border-radius: 2rem;
