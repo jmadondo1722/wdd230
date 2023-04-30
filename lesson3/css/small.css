@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
+
 
 header,
 footer {
@@ -164,3 +164,37 @@ th {
     background-color: #ed6b86;
   }
    */
+
+   .heading {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+.inner {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.primary-background{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.secondary-background{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.accent1-background{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.accent2-background{
+    background-color: #ffffff;
+    color: #000000;
+
+}
