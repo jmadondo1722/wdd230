@@ -94,3 +94,21 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4rem;
     font-size: 1.2rem;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.footer-card {
+    margin-top: 1rem;
+    background-color: #FFCDD2;
+    border-radius: 1rem;
+  }
+
+  .text-white {
+    color: #000000;
+    background-color: #FFCDD2; /* a darker shade of pink */
+  }
+  
