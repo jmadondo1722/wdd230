@@ -28,12 +28,12 @@ img {
 
 /*Header Styles*/
 header {
-    background-color: #681e2e;
+    background-color: violet;
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-bottom: 5%;
     padding: 0 2% 3% 2%; border-radius: 10px;
-    color: white;
+    color: black;
 
 }
 
@@ -78,8 +78,8 @@ header .company h1 {
 }
 
 #hamburgerBtn {
-    background-color: transparent;
-    border: 1px solid #721121;
+    background-color: #7b1fa2;
+    color: #fff;
     font-size: 2rem;
     margin-top: -2%;
     color: white;
@@ -93,8 +93,8 @@ header .company h1 {
 }
 
 .active {
-    background-color: black;
-    color: white;
+    background-color: #ee82ee;
+    color: #000000;
 }
 
 header nav {display: none;}
@@ -475,7 +475,7 @@ form label.top input:required:valid{
 
 /*Footer styles*/
 footer {
-    background-color: #681e2e;
+    background-color: violet;
     display: block;
     padding: 2% 2% 0 2%;
     align-items: center;
@@ -519,4 +519,37 @@ footer {
 
 hr {
     max-width: 80%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+.heading {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+#heading {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+.inner {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#currentDate {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+#currentYear {
+    background-color: #ee82ee;
+    color: #000000;
+}
+
+.italic {
+    font-style: italic;
+}
+  
+.text-light {
+    color: black;
 }
