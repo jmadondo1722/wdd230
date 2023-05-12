@@ -2,11 +2,17 @@
   ##Device = Tablets, Ipads 
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 900px){
+
+    .table th,
+  .table td {
+    padding: 0.75em;
+  }
   
     nav ul {
         flex-direction: row;
         justify-content: center;
+        display: flex;
     }
     
     nav li {
@@ -19,7 +25,8 @@
 
     .cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
         min-width: 620px;
         max-width: 720px;
         flex-wrap: wrap;

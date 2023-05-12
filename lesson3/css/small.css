@@ -1,3 +1,5 @@
+/* @media only screen and (max-width: 600px) { */
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
 
 
@@ -87,8 +89,8 @@ nav ul li a {
 }
 
 .logo{
-    display: flex;
-    justify-content: center;
+    max-width: 50%;
+
 }
 
 
@@ -100,21 +102,22 @@ nav a:hover {
 .byu {
     color: white;
     background-color: transparent;
-
 }
-
-table,
+    
+/* .table,
 th,
 td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 2px;
+    width: 100%
 }
 
 th {
-    text-align: center;
-}
-
+    text-align: left;
+} */
+  
+  
 .sample1 {
     font-family: 'Montserrat', sans-serif;
     background-color: violet;
@@ -198,3 +201,48 @@ th {
     color: #000000;
 
 }
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 620px;
+    max-width: 720px;
+    flex-wrap: wrap;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* Hide table header and footer */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  /* Add padding to table cells and center text */
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add border to table cells */
+  td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+  
+  /* Set background color for table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
