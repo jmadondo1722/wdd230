@@ -286,6 +286,21 @@ main section h2 {
     word-wrap: break-word;
 }
 
+.spotlight2 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.spotlight3 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#spotlight3 {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 /*.spotlight section h3 {
     color: #69140E;
     margin: 0;
@@ -535,6 +550,12 @@ hr {
     background-color: #ffffff;
     color: #000000;
 }
+
+.event {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
 
 #currentDate {
     background-color: #ee82ee;
