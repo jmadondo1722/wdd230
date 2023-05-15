@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -16,13 +16,15 @@ body {
 
 h1 {
 	font-size: 1.5rem;
+	color: black;
+  	background-color: lightgray;
 }
 
 main {
 	margin: 0.5rem auto;
 	border: 1px solid #999;
 	padding: 0.5rem;
-	background-color: #ea5250;
+	background-color: violet;
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
@@ -42,6 +44,8 @@ input {
 
 label {
 	font-size: 0.9rem;
+	background-color: #ee82ee;
+    color: #000000;
 }
 .listcontainer {
 	border: 1px solid #bbb;
