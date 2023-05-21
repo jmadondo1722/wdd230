@@ -1,25 +1,30 @@
+/*Create variables to hold references to user input,
+button element, and the list element.*/
+//Saves the input element to a variable
+const input = document.getElementById("favchap");
 
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
-const button = document.querySelector('button');
+//Saves the button element to a variable
+const button = document.getElementById("button");
 
-button.onclick = function() {
-  let myItem = input.value;
-  input.value = '';
+//Saves the list element to a variable
+const list = document.getElementById("list");
 
-  const listItem = document.createElement('li');
-  const listText = document.createElement('span');
-  const listBtn = document.createElement('button');
+/*A click event that listens for the "Add Chapter" button*/
+button.addEventListener("click", function() {
+    let inputLen = input.value;
+    if (inputLen.length > 0)
+    {
+        const li = document.createElement("li");
+        const deleteBtn = document.createElement("button");
+        li.innerHTML = inputLen;
+        deleteBtn.textContent = "❌";
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
 
-  listItem.appendChild(listText);
-  listText.textContent = myItem;
-  listItem.appendChild(listBtn);
-  listBtn.textContent = '❌';
-  list.appendChild(listItem);
-
-  listBtn.onclick = function(e) {
-    list.removeChild(listItem);
-  }
-
-  input.focus();
-}
+        deleteBtn.addEventListener("click", () => {
+            list.removeChild(li);
+        });
+        input.value = "";
+        input.focus();
+    }
+});
