@@ -53,10 +53,20 @@
         right: 10%;
     }
     
-    #hero-banner picture img {
-        height: 100%;
+    #hero-banner {
+        position: relative;
+        overflow: hidden;
+       
+      }
+      
+      #hero-banner img {
         width: 100%;
-    }
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+      }
+      
     
     .event {
         grid-row: 1/2;

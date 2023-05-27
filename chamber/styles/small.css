@@ -24,6 +24,7 @@ body {
 img {
     width: 100%;
     /* color: white; */
+    object-fit: cover;
 }
 
 /*Header Styles*/
@@ -205,6 +206,7 @@ main section h2 {
 
 #hero-banner img {
     margin-bottom: -0.25rem;
+    object-fit: cover;
 }
 
 .event h3{
