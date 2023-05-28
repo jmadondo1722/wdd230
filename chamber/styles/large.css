@@ -145,6 +145,8 @@
     #daysBetweenVisits {
         grid-column: 1/4;
         margin-left: 8px;
+        color: #000000; 
+        background-color: #FFFF00;
     }
     
     /*Dirctory Styles*/

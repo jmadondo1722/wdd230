@@ -115,6 +115,8 @@ header a {
     padding: .8rem 2vw;
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,0.5);
+    background-color: #ee82ee;
+    color: #000000;
 }
 
 #primaryNav a:hover {
@@ -205,8 +207,9 @@ main section h2 {
 }
 
 #hero-banner img {
-    margin-bottom: -0.25rem;
-    object-fit: cover;
+    grid-area: hero-banner img;
+    background-image: url(../images/wdd230-org-large.webp);
+    background-size: cover;
 }
 
 .event h3{

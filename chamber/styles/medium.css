@@ -74,7 +74,8 @@
     .demographic-data p {
         margin-left: 2%;
         margin-right: 2%;
-        background-color: #F28123;
+        color: #FFFFFF; 
+        background-color: #2F4F4F;
     }
     
     .market-highlight {

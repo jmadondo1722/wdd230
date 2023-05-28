@@ -49,7 +49,7 @@
     <nav id="primaryNav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
+        <li><a class="active" href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -137,31 +137,37 @@
   </main>
   <footer>
     <div class="section1">
-      <a class="logo-link" href="index.html">
-        <img src="images/logo3-w.webp" alt="Pretoria Logo image" />
-      </a>
+      <a class="logo-link">
+          <img class="logo-image" src="images/logo3-w.webp" alt="Pretoria city logo">
+        </a>
+        
       <section class="company">
-        <h2>Pretoria Chamber of Commerce</h2>
+          <h2 class="heading">Pretoria Chamber of Commerce</h2>
+          <h3 class="heading">215 Ben Viljoen Street, Pretoria North, Pretoria, 0182</h3>           
       </section>
-    </div>
-    <div>
-      <p>mad22005@byui.edu</p>
-      <p>+(27) 73 590 8361</p>
-      <p></p>
-      <a
-        href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
-        Location</a>
-    </div>
-    <hr>
+  </div>
 
-    <div class="section2">
+
+  <div>
+      <p class="heading">mad22005@byui.edu</p>
+      <p class="heading">+(27) 73 590 8361</p>
+      <p></p>
+      <a class="heading" href="https://www.google.com/maps/place/215+Ben+Viljoen+St,+Pretoria+North,+Pretoria,+0116/@-25.6786955,28.1711044,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebfd911840a0d93:0x391922e7b22092d2!8m2!3d-25.6786955!4d28.1732931">📍
+          Location</a>
+  </div>
+
+
+  <hr>
+
+
+  <div class="section2">
       <section>
-        <p>&copy;<span id="currentYear"></span> Pretoria Chamber</p>
-        <h3>Josiah Madondo</h3>
-        <p>WDD 230 Chamber Project:</p>
+          <p class="heading">&copy;<span id="currentYear"></span> Pretoria Chamber:</p>
+          <h3 class="heading">Josiah Madondo:</h3>
+          <!-- <p>WDD 230 Chamber Project:</p> -->
       </section>
-      <p>Last Modification: <span id="currentDate"></span></p>
-    </div>
+      <p class="heading">Last Modification: <Span id="currentDate"></Span></p>
+  </div>
   </footer>
   <script src="scripts/scripts.js"></script>
   <script src="scripts/daysSinceLast.js"></script>
