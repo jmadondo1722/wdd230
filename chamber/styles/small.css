@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abel&Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat&display=swap');
 
 .noDisplay {
     display: none;
@@ -26,6 +26,9 @@ img {
     /* color: white; */
     object-fit: cover;
 }
+
+/* Rest of your styles... */
+
 
 /*Header Styles*/
 header {
@@ -191,7 +194,7 @@ main section h2 {
 
 #hero-banner a {
     background-color: #F28123;
-    color:black;
+    color: black;
     text-decoration: none;
     position: absolute;
     box-shadow: 3px 3px 3px #603613;
@@ -207,9 +210,9 @@ main section h2 {
 }
 
 #hero-banner img {
-    grid-area: hero-banner img;
     background-image: url(../images/wdd230-org-large.webp);
     background-size: cover;
+    width: 100%;
 }
 
 .event h3{
@@ -575,7 +578,8 @@ hr {
 .italic {
     font-style: italic;
 }
-  
+
 .text-light {
     color: black;
 }
+
