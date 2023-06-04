@@ -23,9 +23,16 @@ body {
 
 img {
     width: 100%;
-    /* color: white; */
+    color: #000 !important;
+    background-color: #FFD700 !important;
     object-fit: cover;
+    
 }
+
+/* a {
+    color: #000 !important;
+    background-color: #FFD700 !important;
+  } */
 
 /* Rest of your styles... */
 
