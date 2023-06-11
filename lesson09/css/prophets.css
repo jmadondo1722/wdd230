@@ -66,4 +66,6 @@ li > img {
 footer {
     border-top: 1px solid #555;
     padding: 20px;
+    color: #000;
+    background-color: white;
 }

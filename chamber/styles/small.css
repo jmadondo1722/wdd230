@@ -327,6 +327,8 @@ main section h2 {
     color: #603613;
 }*/
 
+/* Rest of your styles... */
+
 .spotlight section p {
     box-sizing: border-box;
     margin: 0;
@@ -355,6 +357,8 @@ main section h2 {
     width: 80%;
     border-radius: 10px;
 }
+
+/* Rest of your styles... */
 
 /*Join Styles*/
 form {

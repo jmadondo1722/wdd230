@@ -70,6 +70,13 @@
     }
     
     /*Discover Styles*/
+
+    /* Add Hover Effect to Images */
+    .discover-imgs:hover {
+        transform: scale(1.1);
+        opacity: 0.8; /* Adjust the opacity value as desired */
+        transition: opacity 0.3s ease; /* Optional: Add a smooth transition effect */
+  }
     
     .demographic-data p {
         margin-left: 2%;
