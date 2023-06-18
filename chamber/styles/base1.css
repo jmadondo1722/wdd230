@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+
+hr {
+    width: 60%;
+}
+
+h1 {
+    background-color: violet;
+    opacity: .8;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #4b6c43;
+}
+
+.heading {
+    background-color: #ee82ee;
+    color: #000000;
+}

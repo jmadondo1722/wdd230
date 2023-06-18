@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Pretoria&units=metric&appid=f6d4e476c05eb007f53c2e1ba872d8a7";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=6ab4e34bb4e3d065df470068e063f190";
 
 async function apiFetch() {
     try {
