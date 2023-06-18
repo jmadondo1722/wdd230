@@ -113,15 +113,18 @@ td {
 
 .secondary {
     background-color: #000000;
+    color: rgb(255, 255, 255); 
 }
 
 .accent1 {
     background-color: #156160;
+    color: rgb(255, 255, 255); background-color: rgb(21, 97, 96);
 }
 
 .accent2 {
     background-color: violet;
     color: white;
+    color: rgb(0, 0, 0); background-color: rgb(238, 130, 238);
 }
 
 .typography {
@@ -141,5 +144,15 @@ footer {
     padding: 3em;
     margin: 50px 0px 0px 0px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(238, 130, 238);
+}
+
+.inner {
+    background-color: #ffffff;
+    color: #000000;
 }
 
