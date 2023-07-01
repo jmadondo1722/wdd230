@@ -23,8 +23,8 @@ body {
 
 img {
     width: 100%;
-    color: #000 !important;
-    background-color: #ececec !important;
+    color: #000;
+    background-color: #ececec;
     object-fit: cover;
     
 }
@@ -593,4 +593,8 @@ hr {
 .text-light {
     color: black;
 }
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
 
