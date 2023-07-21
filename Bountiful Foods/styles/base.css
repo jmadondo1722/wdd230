@@ -1,7 +1,8 @@
 body {
     margin: 0;
     background-color: #DDCFBF;
-    font-family: 'Gentium Plus', serif;
+    font-family: 'Abel', 'san serif';
+    color: #000;
   }
   
   main{
@@ -10,12 +11,14 @@ body {
   }
   
   footer{
-    background-color: #22430D;
+    background-color: #228B22;
     color: white;
   }
   /* utility stylings */
   .bg-primary {
-    background-color: #F0890D;
+    background-color: #228B22;
+    color: #333;
+    
   }
   
   .text-white {
@@ -24,6 +27,7 @@ body {
   
   .text-center {
     text-align: center;
+    
   }
   
   .center{
@@ -60,7 +64,7 @@ body {
   }
   
   .card>h2{
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1rem;
     background-color: #DDCFBF;
@@ -121,7 +125,7 @@ body {
   .nav-link > a {
     text-decoration: none;
     color: black;
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* font-weight: ; */
     font-size: 1.25rem;
     margin: 0rem 0.75rem;
@@ -205,12 +209,12 @@ body {
   }
   /* hero stylings */
   .banner-text {
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 3rem;
   }
   
   .banner-sub-text {
-    font-family: 'Proza Libre', sans-serif;
+    font-family: 'Abel', sans-serif;
     color: #333333;
     margin-bottom: 2.5rem;
   }
@@ -219,6 +223,7 @@ body {
   #orders>p{
     display: flex;
     align-items: center;
+    color: #000;
   }
   
   #orders>p>img{
@@ -321,4 +326,17 @@ body {
     font-size: 18px;
     text-decoration: underline;
   }
-  
+
+  /************************************************************************************************/
+  .heading {
+    color: #000; background-color: #f0f0f0;
+  }
+
+  .bg-primary text-white text-center {
+    color: #000; background-color: #f0f0f0;
+  }
+
+  .custom-paragraph {
+    color: #333;
+    background-color: #f0f0f0;
+  }
